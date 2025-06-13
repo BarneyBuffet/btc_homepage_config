@@ -1,0 +1,40 @@
+---
+# Homepage Services Configuration
+# ==============================
+#
+# This configuration defines the services displayed on your Homepage dashboard.
+# Services are organised into groups, each with its own section and items.
+#
+# Structure:
+#   - name: Group Name
+#     icon: icon-name
+#     items:
+#       - name: Service Name
+#         icon: service-icon
+#         href: http://service-url
+#         description: Short description
+#
+# Icon Reference:
+#   - Material Design Icons (mdi-): https://pictogrammers.com/library/mdi/
+#   - Simple Icons (si-): https://simpleicons.org/
+#   - Font Awesome (fa-): https://fontawesome.com/icons
+#
+# For complete documentation: https://gethomepage.dev/configs/services/
+
+# # System & Infrastructure
+# - name: System
+#   icon: mdi-server
+#   items:
+#     - name: Nginx
+#       icon: si-nginx
+#       href: http://localhost
+#       description: Web server
+
+# # Monitoring
+# - name: Monitoring
+#   icon: mdi-chart-line
+#   items:
+#     - name: Grafana
+#       icon: si-grafana
+#       href: http://localhost:3000
+#       description: Analytics & monitoring

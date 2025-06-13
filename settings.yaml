@@ -1,0 +1,46 @@
+---
+# Homepage Settings Configuration
+# ==============================
+#
+# This template configures the Homepage dashboard appearance and behavior.
+#
+# Main sections:
+# - Site Information: Basic dashboard identity (title, language, timezone)
+# - Appearance: Visual styling including theme, colours, and background effects
+# - Layout Settings: Widget configuration and display options
+# - Header Settings: Header appearance and version display
+# - Provider Configs: External service integrations like weather
+#
+# For complete documentation: https://gethomepage.dev/configs/settings/
+#
+# Notes:
+# - The dark theme with slate color scheme provides good visibility and reduces eye strain
+# - Background opacity at 40% balances readability with background visibility
+# - Weather widget requires an API key from a weather provider if enabled
+# - All settings can be customised via the Homepage UI after installation
+
+# Site Information
+title: Bitcoin Server
+description: Bitcoin bare metal server.
+theme: dark
+language: en
+
+# Appearance
+color: slate          # Color scheme: slate, zinc, stone, neutral, etc.
+background:
+  image: "https://wallpaperaccess.com/full/395434.jpg"  # Background image URL
+  position: center    # Image position: center, top, bottom
+  opacity: 40         # Background opacity 0-100 (40-50 is good for readability)
+  blur: sm            # Blur amount: sm, md, xl
+  saturate: 50        # Color saturation: 0-100
+  brightness: 60      # Brightness level: 0-100
+
+# Layout Settings
+layout:
+  enabledWidgets:
+    - search          # Enable search widget
+    - clock           # Enable clock widget
+
+# Header Settings
+headerStyle: underlined  # Options: underlined, boxed, clean
+hideVersion: true        # Hide Homepage version number
